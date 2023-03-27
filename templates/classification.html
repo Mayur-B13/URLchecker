@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div id="body">
+    <center>
+        <h2>Webpage Phishing detection</h2>
+        <br><br><br>
+        <form action="/classification" method="post">
+            <input type="text"  required placeholder="Enter the url" name="url"><br><br>
+            <input type="submit" value="Predict">
+        </form>
+        <br>
+        {{ prediction }}
+    </center>
+</div>
+{% endblock %}
