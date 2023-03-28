@@ -18,13 +18,13 @@ sckit-learn
 ### Application:
 
 **Login Page**
-[Login Page](Images/Login.png)
+![Login Page](Images/Login.png)
 
 **Home Page**
-[Home Page](Images/Home.png)
+![Home Page](Images/Home.png)
 
 **Detection Page**
-[Detection](Images/Detection_page.png)
+![Detection](Images/Detection_page.png)
 
 
 ### Use:
