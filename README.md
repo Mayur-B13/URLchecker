@@ -24,7 +24,7 @@ sckit-learn
 ![Home Page](Images/Home.png)
 
 **Detection Page**
-![Detection](Images/Detection_page.png)
+![Detection](Images/detection_page.png)
 
 
 ### Use:
