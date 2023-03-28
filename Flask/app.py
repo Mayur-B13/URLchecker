@@ -54,7 +54,7 @@ def extract_features(url):
     return df
 
 def predict_class(url):
-    model = pickle.load(open('../baseline_clf', 'rb'))
+    model = pickle.load(open('../baseline_clf.pkl', 'rb'))
     url_features = extract_features(url)
     features_final = url_features.values.reshape(1, -1)
     prediction = model.predict(features_final)[0]
