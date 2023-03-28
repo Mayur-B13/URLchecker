@@ -1,18 +1,33 @@
 # SecureSurf
 
-SecureSurf is an application designed to address the security challenges posed by the growth of increasing use of internet. 
+SecureSurf is a simple  application designed to address the security challenges posed by the growth of increasing use of internet. 
 
 The primary challenges faced by online consumers are related to cyberfraud and identity theft. To combat these issues, SecureSurf focuses on checking the legitimacy of visited web pages, which is crucial in safeguarding customers' identities and preventing phishing attacks.
 
 By verifying the legitimacy of websites, SecureSurf helps ensure a secure and safe browsing experience for users.
 
-### Requirements:
+### Features:
+- SecureSurf employs  machine learning algorithm to detect phishing sites.
 
+### Requirements:
 ```
 flask
 pandas
 numpy
 sckit-learn
+```
+
+### How to Use:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Flask](https://flask.palletsprojects.com/en/2.2.x/installation/)
+```
+#Clone the repository
+git clone https://github.com/ash-01xor/SecureSurf
+
+#Go into the folder flask
+cd Flask
+
+#run Flask
+flask run
 ```
 
 ### Application:
@@ -25,18 +40,3 @@ sckit-learn
 
 **Detection Page**
 ![Detection](Images/detection_page.png)
-
-
-### Use:
-- Clone the repository
-```
-git clone https://github.com/ash-01xor/SecureSurf
-```
-- Move to folder Flask via terminal
-```
-cd Flask
-```
-- Run Flask
-```
-flask run
-```
