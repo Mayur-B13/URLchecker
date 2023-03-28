@@ -72,9 +72,9 @@ def validate(username, password):
     cur = conn.cursor()
 
     # create the user table if it does not exist
-    cur.execute("CREATE TABLE IF NOT EXISTS user (username TEXT, password TEXT)")
+    #cur.execute("CREATE TABLE IF NOT EXISTS user (username TEXT, password TEXT)")
 
-    cur.execute('SELECT * FROM user WHERE username = ?', (username,))
+    cur.execute('SELECT * FROM user;')
     data = cur.fetchall()
     flag = 0
     for USER, PASS in data:
