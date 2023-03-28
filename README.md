@@ -40,3 +40,8 @@ flask run
 
 **Detection Page**
 ![Detection](Images/detection_page.png)
+
+
+### Contributing:
+Feel free to contribute to the project !
+Would love to collaborate and build a better application.
